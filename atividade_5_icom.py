@@ -2,7 +2,7 @@
 Created on Thu Sep 27 17:54:19 2021
 
 # Equipe:
-# *   Juliane
+# *   Juliane Bezerra
 # *   Rubens Lopes
 # *   Aline Soares
 
