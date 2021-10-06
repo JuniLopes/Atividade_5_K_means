@@ -29,8 +29,8 @@ labels = kmeans.labels_
 
 data = data.iloc[:,:-1].values
 
-plt.scatter(data[:,0], data[:,1], s = 100, c = kmeans.labels_)
-plt.scatter(kmeans.cluster_centers_[:, 0], kmeans.cluster_centers_[:, 1],s = 100, c = 'red',label = 'Centroids')
+plt.scatter(data[:,0], data[:,-1], s = 100, c = kmeans.labels_)
+plt.scatter(kmeans.cluster_centers_[:,0], kmeans.cluster_centers_[:, 1],s = 100, c = 'red',label = 'Centroids')
 plt.title('Parkinson Clusters and Centroids')
 plt.xlabel('X')
 plt.ylabel('Y')
